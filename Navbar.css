@@ -1,0 +1,169 @@
+.navbar{
+    display: flex;
+    overflow: hidden;
+    background-color: gray;
+    justify-content: space-between;
+}
+
+.left-side{
+    display: flex;
+}
+
+.left-side a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+
+.Landingimage{
+    width: 100%;
+    height: 400px;
+}
+
+.overview{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 200px;
+    height: 100px;
+}
+
+.due{
+    padding-left: 2px;
+    border-style: solid ;
+    border-color:white white white gray;
+}
+.cash{
+  padding-left: 2px;
+  border-style: solid ;
+  border-color:white white white gray;
+}
+.credit{
+  padding-left: 2px;
+  border-style: solid ;
+  border-color:white white white gray;
+}
+
+.SwitchBill{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.category{
+    display: flex;
+    justify-content: center;
+}
+
+/* .switch h3{
+    display: block;
+    color:green;
+    text-align: center;
+    border: 1px solid green;
+    padding: 14px 16px;
+    text-decoration: none;
+} */
+
+
+
+/* .Bills{
+    color: black;
+    position: absolute;
+}  */
+
+
+
+/* .Upcoming:hover .Upcoming-bills{
+    display: block;
+    background-color: white;
+} 
+
+.Upcoming:hover h3{
+    background-color: green;
+    color: white;
+}  */
+
+
+/* .Past:hover .Past-bills{
+    display: block;
+    background-color:white;
+} 
+
+.Past:hover h3{
+    background-color : green;
+    color: white;
+}  */
+
+
+.description{
+    text-align: center;
+    color: black;
+}
+
+.Bill
+{
+    margin: 30px auto;
+    width: 320px;
+    background-color: whitesmoke;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;   
+}
+
+th{
+    background-color: rgba(165, 162, 162, 0.747);
+    padding: 8px;
+    text-align: left;
+}
+
+th.due{
+    border-left: 4px solid orange;
+    border-top-style:none ;
+    border-right-style: none;
+    border-bottom-style: none;
+    background-color:rgba(165, 162, 162, 0.747) ;
+}
+
+.footer{
+    margin-top:10px;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    right: 0; 
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+} 
+
+.Form{
+    background-color: floralwhite;
+    margin:30px auto;
+    width: 320px;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+
+input{
+    margin:10px 50px;
+}
